@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Commerce</title>
+               <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+               <!-- css files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/venobox.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <!-- nav starts -->
+    <nav class="navbar navbar-expand-md sticky-top " style="background-color:white;">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/Logo.png" alt="">
+          </a>
+          <button class= "smallMenuBar d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#smallMenu" aria-controls="offcanvasExample">
+            <span><i class="fa-solid fa-bars-staggered"></i></span>
+          </button>
+          <!-- *small device nav -->
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="smallMenu" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="./img/Logo.png" alt="" style="height: 50px;">
+              </h5>
+
+              <div class="icons d-lg-none" >
+                <ul>
+                  <li><span><i class="fa-solid fa-magnifying-glass"></i></span></li>
+                  <li><a href="#"> <i class="fa-regular fa-user"></i></a></li>
+                  <li><a href="#"> <i class="fa-regular fa-heart"></i></a></li>
+                  <li>
+                    <a href="#"> 
+                      <img src="./img/cart.svg" alt="">
+                      <span class="overlay">0</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="menu d-lg-none">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Shop</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./about.html">About</a>
+                </li>
+				
+				<li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contact.html">Contact us</a>
+              </li>
+
+  
+                <!-- <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Features</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Blogs</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Contact</a>
+                </li>
+              </ul> -->
+
+            </div>
+          </div>
+
+          <!-- *small device nav -->
+
+
+          <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Shop</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./about.html">About</a>
+              </li>
+			  
+			  <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contact.html">Contact us</a>
+              </li>
+
+
+              <!-- <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Features</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Blogs</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact</a>
+              </li> -->
+            </ul>   
+          </div>
+
+          <div class="icons d-none d-lg-block" >
+            <ul>
+              <li><span><i class="fa-solid fa-magnifying-glass"></i></span></li>
+              <li><a href="log in.html"> <i class="fa-regular fa-user"></i></a></li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- nav ends -->
+
+
+<!--MAIN STARTS HERE-->
+<main>
+    <section id="about">
+
+      <div class="about_cnt">
+        <h1>Shop - Details Style One</h1>
+        <div class="breadcrumb d-block">
+          <ul>
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Shop</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="shop_detail">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="top_img_slider">
+              <div class="img_card">
+                <img src="./img/LatherJacket1.jpg.crdownload" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket2.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket3.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket4.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket5.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket6.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket7.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket8.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket9.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket10.jpg" alt="">
+              </div>
+            </div>
+            <div class="bottom_img_slider">
+              <div class="img_card">
+                <img src="./img/LatherJacket1.jpg.crdownload" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket2.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket3.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket4.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket5.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket6.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket7.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket8.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket9.jpg" alt="">
+              </div>
+              <div class="img_card">
+                <img src="./img/LatherJacket10.jpg" alt="">
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+            <h3>Leather Jackets</h3>
+            <h6>5.00 <span class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>(5 Customer Review)</h6>
+            <h6><span>$135.00</span></h6>
+            <p>Quickly productivate holistic systems after 24/365 e-commerce. Continually synthesize superior catalysts
+              for change via high standards in leadership skills. Collaboratively evisculate distributed functionalities
+              rather than timely methods of empowerment.</p>
+
+            <div class="border">
+
+            </div>
+            <div class="form">
+              <form action="/action_page.php">
+                <div class="row car align-items-center">
+                  <label for="cars" class="col-lg-1">Size:</label>
+
+                  <select id="size" name="size" class="col-lg-11">
+                    <option value="44">44</option>
+                    <option value="42">42</option>
+                    <option value="36">36</option>
+                    <option value="32">32</option>
+                  </select>
+
+                </div>
+                <div class="row align-items-center">
+                  <label for="color" class="col-lg-1">Color:</label>
+				
+                  <select id="color" name="color" class="col-lg-11">
+                    <option value="orange">Orange</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="pink">Pink</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+
+
+            <div class="quantity_div">
+
+              <h6>Quantity:</h6>
+              <div class="row align-items-center">
+                <div class="quantity col-lg-4">
+
+                  <input type="text" class="quantity_field">
+
+                </div>
+                
+                <div class="icons col-lg-4">
+                  <ul>
+				  <li><a href="payment.html"><i class="fa-solid fa-cart-plus"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-eye"></i></a></li>
+                    <li><a href="#"><svg width="12" height="13" viewBox="0 0 12 13" fill=""
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9.6 0H12V13H9.6V0ZM0 8.125H2.4V13H0V8.125ZM4.8 4.0625H7.2V13H4.8V4.0625Z"
+                            fill="#151A32" />
+                        </svg></a></li>
+                  </ul>
+
+
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="border">
+
+            </div>
+
+
+            <div class="row informationShop">
+              <div class="pro_info col-lg-6">
+                <h6>SKU: W0243</h6>
+                <h6>Tags: Hot, Women</h6>
+                <h6>Category: Dress, T-Shirt, Mini Scut</h6>
+
+              </div>
+              <div class="socialicon col-lg-6">
+                <ul>
+                  <li><span><i class="fa-brands fa-facebook"></i></span></li>
+                  <li><span><i class="fa-brands fa-twitter"></i></span></li>
+                  <li><span><i class="fa-brands fa-instagram"></i></span></li>
+                  <li><span><i class="fa-brands fa-pinterest-p"></i></span></li>
+                </ul>
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="navbar">
+      <div class="container">
+
+        <div class="showOnLargeDevice d-lg-block d-none">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                type="button" role="tab" aria-controls="pills-home" aria-selected="true">Product Description</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Customer Review</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Additional
+                Information</button>
+            </li>
+
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+              tabindex="0">
+              Conveniently build adaptive users with front-end human capital. Appropriately unleash team building
+              technology for goal-oriented paradigms. Dynamically generate interoperable e-business vis-a-vis
+              goal-oriented value. Completely pursue fully tested content whereas multifunctional core competencies.
+              Progressively scale team driven process improvements before premier functionalities. Holisticly cultivate
+              intermandated methodologies rather than virtual technology. Monotonectally target interactive synergy
+              without process-centric e-markets. Holisticly pursue enterprise-wide leadership skills for enterprise
+              leadership. Collaboratively underwhelm standardized expertise after effective bandwidth. Conveniently
+              productivate holistic collaboration and idea-sharing rather than granular strategic theme areas.
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+              tabindex="0">
+              Enthusiastically aggregate ethical systems for standardized mindshare. Energistically target resource
+              maximizing leadership skills without backward-compatible action items. Credibly impact alternative
+              expertise
+              vis-a-vis economically sound results. Dynamically synergize empowered benefits through functional
+              partnerships. Authoritatively empower prospective infomediaries for interactive content.
+              Synergistically embrace 2.0 paradigms through professional intellectual capital. Interactively strategize
+              parallel growth strategies without out-of-the-box web services. Assertively reinvent installed base
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+              tabindex="0">
+              Conveniently build adaptive users with front-end human capital. Appropriately unleash team building
+              technology for goal-oriented paradigms. Dynamically generate interoperable e-business vis-a-vis
+              goal-oriented
+              value. Completely pursue fully tested content whereas multifunctional core competencies. Progressively
+              scale
+              team driven process improvements before premier functionalities. Holisticly cultivate intermandated
+              methodologies rather than virtual technology. Monotonectally target interactive synergy without
+              process-centric e-markets. Holisticly pursue enterprise-wide leadership skills for enterprise leadership.
+              Collaboratively underwhelm standardized expertise after effective bandwidth. Conveniently productivate
+              holistic collaboration and idea-sharing rather than granular strategic theme areas.
+            </div>
+
+          </div>
+        </div>
+
+        <div class="showOnSmallDevice d-lg-none">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                  plugin adds
+                  the appropriate classes that we use to style each element. These classes control the overall
+                  appearance, as well
+                  as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                  overriding our
+                  default variables. It's also worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin
+                  adds the appropriate classes that we use to style each element. These classes control the overall
+                  appearance, as
+                  well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                  overriding our
+                  default variables. It's also worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin
+                  adds the appropriate classes that we use to style each element. These classes control the overall
+                  appearance, as
+                  well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                  overriding our
+                  default variables. It's also worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </section>
+
+    <section id="new_product">
+      <h1>Releted Products</h1>
+      <div class="container">
+        <div class="arrows">
+          <div class="left"><i class="fa-solid fa-arrow-left-long"></i></div>
+          <div class="right"><i class="fa-sharp fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="product_slider">
+          <div class="col-lg-3 product_container">
+            <div class="product_card">
+
+
+
+              <div class="product_img">
+                <div class="labelshop">
+                  New
+                </div>
+                <img src="./img/LatherJacket1.jpg.crdownload" alt="">
+
+              </div>
+              <div class="product_info">
+                <ul>
+                  <li>
+                    <h4><a href="#">Jacket</a></h4>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </li>
+                </ul>
+
+
+                <p class="dollart">$125.00</p>
+
+              </div>
+
+
+
+
+            </div>
+          </div>
+          <div class="col-lg-3 product_container">
+            <div class="product_card">
+
+
+
+              <div class="product_img">
+                <div class="labelshop">
+                  New
+                </div>
+                <img src="./img/LatherJacket3.jpg" alt="">
+
+              </div>
+              <div class="product_info">
+                <ul>
+                  <li>
+                    <h4><a href="#">Blazer</a></h4>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </li>
+                </ul>
+
+
+                <p class="dollart">$125.00</p>
+
+              </div>
+
+
+
+
+            </div>
+          </div>
+          <div class="col-lg-3 product_container">
+            <div class="product_card">
+
+
+
+              <div class="product_img">
+                <div class="labelshop">
+                  New
+                </div>
+                <img src="./img/LatherJacket4.jpg" alt="">
+
+              </div>
+              <div class="product_info">
+                <ul>
+                  <li>
+                    <h4><a href="#">Baseball Cap</a></h4>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </li>
+                </ul>
+
+
+                <p class="dollart">$125.00</p>
+
+              </div>
+
+
+
+
+            </div>
+          </div>
+          <div class="col-lg-3 product_container">
+            <div class="product_card">
+
+
+
+              <div class="product_img">
+                <div class="labelshop">
+                  New
+                </div>
+                <img src="./img/LatherJacket10.jpg" alt="">
+
+              </div>
+              <div class="product_info">
+                <ul>
+                  <li>
+                    <h4><a href="#">Shoelace</a></h4>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </li>
+                </ul>
+
+
+                <p class="dollart">$125.00</p>
+
+              </div>
+
+
+
+
+            </div>
+          </div>
+          <div class="col-lg-3 product_container">
+            <div class="product_card">
+
+
+
+              <div class="product_img">
+                <div class="labelshop">
+                  New
+                </div>
+                <img src="./img/LatherJacket9.jpg" alt="">
+
+              </div>
+              <div class="product_info">
+                <ul>
+                  <li>
+                    <h4><a href="#">Baseball Cap</a></h4>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </li>
+                </ul>
+
+
+                <p class="dollart">$125.00</p>
+
+              </div>
+
+
+
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+</main>
+  <!--MAIN ENDS HERE-->
+
+
+
+  <footer>
+
+    <div class="container">
+
+     <!-- <div class="card">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="cardItem">
+             <div class="row">
+                <div class="col-lg-4"><span><i class="fa-solid fa-truck-fast"></i></span></div>
+                <div class="col-lg-8">
+                  <h5>FREE SHIPING</h5>
+                  <p>all orders over <span>$150</span></p>
+                </div>
+             </div>
+           </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="cardItem">
+            <div class="row">
+              <div class="col-lg-3"><span><i class="fa-regular fa-credit-card"></i></span></div>
+              <div class="col-lg-9">
+                <h5>QUICK PAYMENT</h5>
+                <p>100% secure payment</p>
+              </div>
+           </div>
+           </div> 
+        </div>
+
+        <div class="col-lg-3">
+          <div class="cardItem">
+            <div class="row">
+              <div class="col-lg-4"><span><i class="fa-solid fa-right-left"></i></span></div>
+              <div class="col-lg-8">
+                <h5>FREE RETURNS</h5>
+                <p>Return money within 30 days</p>
+              </div>
+           </div>
+           </div> 
+        </div>
+
+        <div class="col-lg-3">
+          <div class="cardItem">
+            <div class="row">
+              <div class="col-lg-4"><span><i class="fa-solid fa-phone-volume"></i></span></div>
+              <div class="col-lg-8">
+                <h5>24/7 SUPPORT</h5>
+                <p>Quick Support</span></p>
+              </div>
+           </div>
+           </div> 
+        </div>
+      </div>
+      </div> -->
+
+
+      <div class="row align-center">
+
+        <div class="col-lg-4">
+          <ul class="social_icons text-center text-lg-start ">
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 text-center"><a href="#"><img src="./img/logo white.png" alt=""></a></div>
+        <div class="col-lg-4 text-center text-lg-end"><a href="£"><img src="./img/creditcard.png" alt=""></a></div>
+
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="account col-lg-2">
+          <h4>My Account</h4>
+          <ul>
+            <li>
+              <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> My Account </a>
+            </li>
+            <li>
+              <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> View Cart </a>
+            </li>
+            <li>
+              <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Wishlist </a>
+            </li>
+            <li>
+              <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Compare </a>
+            </li>
+            <li>
+              <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> New Products </a>
+            </li>
+          </ul>
+
+
+        </div>
+
+        <div class="support col-lg-2">
+          <h4>Support</h4>
+           <ul>
+             <li>
+               <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Help </a>
+             </li>
+             <li>
+               <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Contact Us </a>
+             </li>
+             <li>
+               <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Feedback </a>
+             </li>
+             <li>
+               <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Customer Service </a>
+             </li>
+             <li>
+               <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Store Locations </a>
+             </li>
+          </ul>
+        </div>
+
+        <div class="openingTime col-lg-2">
+          <h4>Opening Time</h4>
+           <ul>
+             <li>
+              <p>Mon - Tue:8AM - 10PM</p>
+             </li>
+             <li>
+              <p>Wed:8AM - 7PM</p>
+             </li>
+             <li>
+              <p>Fri:7AM - 12PM</p>
+             </li>
+             <li>
+              <p>Sat:9AM - 8PM</p>
+             </li>
+             <li>
+              <p>Sun:Closed</p>
+             </li>
+           </ul>
+        </div>
+        <div class="contact col-lg-3">
+          <h4>Contact Us</h4>
+           <ul>
+            <div class="row">
+              <div class="icon col-lg-2">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="text col-lg-10">
+                830 Broadway, New York, NY 10003,
+                United States
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="icon col-lg-2">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="text col-lg-10">
+                <a href="tel:+18008660286">+18008660286 </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="icon col-lg-2">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="text col-lg-10">
+                <a href="mailto:aetor.info@gmail.com info@aetor.com">aetor.info@gmail.com info@aetor.com</a>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="newsletter col-lg-3">
+          <h4>News Letter</h4>
+          <p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+          <form action="">
+
+            <div class="row">
+              <div class="col-8 px-0">
+                <input type="text">
+              </div>
+              <div class="col-4 px-0">
+                <button>Subscribe</button>
+              </div>
+            </div>
+
+
+          </form>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+  </footer>
+<div>
+<style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up" style="color: #e2863c;"></i></button>
+
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script></div>
+
+ <!-- external files -->
+ <script src="./js/jquery-3.6.3.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/venobox.min.js"></script>
+  <script src="./js/jquery.countdown.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/jquery.nice-number.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
